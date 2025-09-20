@@ -1,13 +1,12 @@
 # 🎯 AI Recruiter Pro - Smart Hiring Platform
 
-[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app.streamlit.app/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://your-backend.onrender.com)
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://6nkwjgl3teqdrvf6bktnd3.streamlit.app/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://innomatics-ai-recruiter.onrender.com/)
 
 ## 🌟 Live Demo
 
-- **Frontend (Streamlit)**: [https://your-streamlit-app.streamlit.app/](https://your-streamlit-app.streamlit.app/)
-- **Backend (FastAPI)**: [https://innomatics-backend.onrender.com](https://innomatics-backend.onrender.com)
-- **API Documentation**: [https://innomatics-backend.onrender.com/docs](https://innomatics-backend.onrender.com/docs)
+- **Frontend (Streamlit)**: [https://your-streamlit-app.streamlit.app/](https://6nkwjgl3teqdrvf6bktnd3.streamlit.app/)
+- **Backend (FastAPI)**: [https://innomatics-backend.onrender.com](https://innomatics-ai-recruiter.onrender.com/)
 
 ## 📋 Features
 
