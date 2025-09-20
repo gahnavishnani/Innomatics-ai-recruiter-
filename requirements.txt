@@ -3,7 +3,7 @@ streamlit
 
 # core & API
 fastapi
-uvicorn[standard]
+uvicorn[standard]6
 python-multipart
 sqlalchemy
 
