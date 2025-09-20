@@ -1,4 +1,7 @@
-# Core & API
+# Essential for Streamlit deployment
+streamlit
+
+# core & API
 fastapi
 uvicorn[standard]
 python-multipart
@@ -9,20 +12,19 @@ pandas
 numpy
 scikit-learn
 python-docx
-pymupdf
 pdfplumber
 
 # NLP & Text Processing
 spacy
 nltk
 fuzzywuzzy
-python-Levenshtein
+python-levenshtein
 
-# LLM Framework
-langchain
+# AI Framework - Lightweight versions for Streamlit
+langchain-core
 langchain-openai
 langchain-community
 
-# Optional: Vector Stores for advanced semantic search
+# Optional: Vector Stores (commented out as they're heavy)
 # chromadb
 # faiss-cpu
