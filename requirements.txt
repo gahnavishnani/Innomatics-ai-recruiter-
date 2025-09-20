@@ -17,3 +17,4 @@ langchain-openai
 langchain-community
 matplotlib
 seaborn
+psycopg2-binary
