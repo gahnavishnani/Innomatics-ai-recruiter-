@@ -188,7 +188,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Backend API URL
-API_URL = "http://localhost:8000"
+API_URL = "https://innomatics-ai-recruiter.onrender.com"
 
 def animated_header():
     col1, col2 = st.columns([3, 1])
