@@ -15,3 +15,5 @@ python-levenshtein
 langchain-core
 langchain-openai
 langchain-community
+matplotlib
+seaborn
