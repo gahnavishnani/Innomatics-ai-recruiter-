@@ -1,30 +1,17 @@
-# Essential for Streamlit deployment
 streamlit
-
-# core & API
 fastapi
-uvicorn[standard]6
+uvicorn[standard]
 python-multipart
 sqlalchemy
-
-# Data Processing & NLP
 pandas
 numpy
 scikit-learn
 python-docx
 pdfplumber
-
-# NLP & Text Processing
 spacy
 nltk
 fuzzywuzzy
 python-levenshtein
-
-# AI Framework - Lightweight versions for Streamlit
 langchain-core
 langchain-openai
 langchain-community
-
-# Optional: Vector Stores (commented out as they're heavy)
-# chromadb
-# faiss-cpu
