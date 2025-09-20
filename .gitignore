@@ -1,9 +1,7 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-# .gitignore
-
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
 *.so
 .Python
 build/
@@ -25,41 +23,40 @@ MANIFEST
 
 # Virtual environment
 venv/
-.env
-.venv/
 env/
-ENV/
+innomatics-env/
+.venv/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.production
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
 # OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Environment variables
-.env
-.env.*
-!.env.example
-
 # Logs
-logs/
 *.log
-
-# Database
-*.db
-*.sqlite3
+logs/
 
 # Temporary files
 temp/
 tmp/
 
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/

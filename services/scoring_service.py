@@ -1,25 +1,37 @@
-# services/scoring_service.py
-# Change from relative to absolute imports
-from core.skills_extractor import extract_skills, calculate_skill_match
+# services/scoring_services.py
+from typing import List, Dict, Any
 
-def analyze_skills(resume_text: str, jd_text: str) -> dict:
+def analyze_resume_jd_match(
+    resume_text: str, 
+    jd_text: str, 
+    resume_skills: List[str], 
+    jd_skills: List[str]
+) -> Dict[str, Any]:
     """
-    Main function to analyze skills from resume and JD.
-    Returns comprehensive skill analysis.
+    Mock analysis for testing
     """
-    # Extract skills from both documents
-    resume_skills = extract_skills(resume_text)
-    jd_skills = extract_skills(jd_text)
-    
-    # Calculate matches and gaps
-    skill_analysis = calculate_skill_match(resume_skills, jd_skills)
-    
-    # Calculate match score (simple percentage)
-    total_jd_skills = len(jd_skills['hard_skills'] + jd_skills['soft_skills'])
-    match_count = len(skill_analysis['matching_skills'])
-    
-    skill_analysis['match_score'] = round((match_count / total_jd_skills * 100), 2) if total_jd_skills > 0 else 0
-    skill_analysis['total_jd_skills'] = total_jd_skills
-    skill_analysis['matched_count'] = match_count
-    
-    return skill_analysis
+    return {
+        "score": 78.5,
+        "verdict": "High",
+        "matched_skills": ["python", "sql", "data analysis"],
+        "missing_skills": ["aws", "docker", "kubernetes"],
+        "hard_match_score": 80.0,
+        "semantic_match_score": 77.0,
+        "experience_match_score": 75.0
+    }
+
+def generate_suggestions(
+    matched_skills: List[str],
+    missing_skills: List[str],
+    resume_text: str,
+    jd_text: str
+) -> List[str]:
+    """
+    Mock suggestions for testing
+    """
+    return [
+        f"Develop skills in: {', '.join(missing_skills[:3])}",
+        f"Highlight your expertise in: {', '.join(matched_skills[:3])}",
+        "Add quantifiable achievements to your resume",
+        "Tailor your resume summary to match the job requirements"
+    ]

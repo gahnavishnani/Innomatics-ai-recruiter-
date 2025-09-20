@@ -2,34 +2,27 @@
 fastapi
 uvicorn[standard]
 python-multipart
+sqlalchemy
 
-# Data Processing & ML
+# Data Processing & NLP
 pandas
 numpy
 scikit-learn
+python-docx
+pymupdf
+pdfplumber
 
 # NLP & Text Processing
 spacy
 nltk
+fuzzywuzzy
+python-Levenshtein
 
 # LLM Framework
 langchain
 langchain-openai
 langchain-community
 
-# Document Loaders
-pymupdf
-pdfplumber
-python-docx
-docx2txt
-
-# Vector Database
-chromadb
-sentence-transformers
-
-# Visualization
-matplotlib
-seaborn
-
-# Frontend
-streamlit
+# Optional: Vector Stores for advanced semantic search
+# chromadb
+# faiss-cpu
