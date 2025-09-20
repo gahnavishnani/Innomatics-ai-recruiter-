@@ -1,0 +1,35 @@
+# Core & API
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Data Processing & ML
+pandas
+numpy
+scikit-learn
+
+# NLP & Text Processing
+spacy
+nltk
+
+# LLM Framework
+langchain
+langchain-openai
+langchain-community
+
+# Document Loaders
+pymupdf
+pdfplumber
+python-docx
+docx2txt
+
+# Vector Database
+chromadb
+sentence-transformers
+
+# Visualization
+matplotlib
+seaborn
+
+# Frontend
+streamlit
